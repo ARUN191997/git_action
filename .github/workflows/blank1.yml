@@ -1,0 +1,12 @@
+name: First_workflow
+on:workflow_dispatch
+jobs:
+  basic
+    runs-on:
+    steps:
+      - name: print greeting
+        run: echo "heloo everyone"
+      - name: print goodbye
+        run: echo "goodbye"
+
+
